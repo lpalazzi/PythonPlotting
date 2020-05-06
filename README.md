@@ -1,5 +1,5 @@
 # PythonPlotting
-Assignments for course 'Applied Plotting, Charting &amp; Data Representation in Python' from University of Michigan
+Assignments for course 'Applied Plotting, Charting &amp; Data Representation in Python' from the University of Michigan
 
 ## [Assignment 2: Plotting Weather Patterns](a2)
 The [data](a2/C2A2_data.csv) for this assignment comes from a subset of The National Centers for Environmental Information (NCEI) [Daily Global Historical Climatology Network](https://www1.ncdc.noaa.gov/pub/data/ghcn/daily/readme.txt) (GHCN-Daily). The GHCN-Daily is comprised of daily climate records from thousands of land surface stations across the globe. The data subset used is near **Ann Arbor, Michigan, United States**.
