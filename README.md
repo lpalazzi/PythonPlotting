@@ -18,10 +18,13 @@ The [code](distributions/code.py) creates an animation, pulling between 100 and 
 
 ## [Building a Custom Visualization](interactive_vizualization)
 
-![fig](interactive_vizualization/sample_figure.png)
-
-The [code](interactive_vizualization/code.py) creates a bar chart with user input: the user can click the plot in order to set a custom y-axis. Each bar represents data from a larger distribution by year, plotted using the mean for each year and error bars representing a 95% confidence interval. The colours of each bar represent how likely the selected y value will fall within a bar's respective distribution (i.e., a color scale from red to blue with white representing a y value equal to the year's mean).
 
 The assignment uses the approach outlined in Ferreira et al.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ferreira, N., Fisher, D., & Konig, A. C. (2014, April). [Sample-oriented task-driven visualizations: allowing users to make better, more confident decisions.](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/Ferreira_Fisher_Sample_Oriented_Tasks.pdf). In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (pp. 571-580). ACM. ([video](https://www.youtube.com/watch?v=BI7GAs-va-Q))
+
+<p align="center">
+  <img width="460" height="300" src="interactive_vizualization/sample_figure.png">
+</p>
+
+The [code](interactive_vizualization/code.py) creates a bar chart with user input: the user can click the plot in order to set a custom y-axis. Each bar represents data from a larger distribution by year, plotted using the mean for each year and error bars representing a 95% confidence interval. The colours of each bar represent how likely the selected y value will fall within a bar's respective distribution (i.e., a color scale from red to blue with white representing a y value equal to the year's mean).
