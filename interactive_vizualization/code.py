@@ -1,9 +1,16 @@
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
+from matplotlib import colors
+from matplotlib import cm
+from matplotlib.ticker import FormatStrFormatter
 import math
 
 z = 1.96 # define the z-value, 1.96 for 95% confidence interval
+y_value = 0.0 # default y-value to set the colours before the first user-click
+
+# set cmap
+cmap = cm.coolwarm
 
 def get_data(rand_seed):
     # generate bar chart data for the plot
@@ -39,17 +46,53 @@ def get_stats(df, z):
 
     return stats
 
-# function to generate a bar's colour
-# based on the selected y value and the mean and confidence interval of the bar
-def colour(y_value, mean, interval):
-    colour = 'blue'
-    return colour
+def colour(y_value, mean, error):
+    # function to generate a bar's colour
+    # based on the selected y value and the mean and confidence interval of the bar
+    lower_bound = mean - error
+    upper_bound = mean + error
+    norm = colors.Normalize(vmin=lower_bound, vmax=upper_bound)
 
+    if y_value < lower_bound:
+        return cm.ScalarMappable(norm=norm, cmap=cmap).to_rgba(lower_bound)
+    elif y_value > upper_bound:
+        return cm.ScalarMappable(norm=norm, cmap=cmap).to_rgba(upper_bound)
+    else:
+        return cm.ScalarMappable(norm=norm, cmap=cmap).to_rgba(y_value)
 
+def onclick(event):
+    # store y location of the user-click
+    y_value = event.ydata
+    if y_value == None:
+        return # do nothing if user clicks outside the plot
+    
+    # determine the new colours based on the updated y-value
+    for index, row in df.iterrows():
+        df.at[index, 'colour'] = colour(y_value = y_value, mean = row['mean'], error = row['error'])
+
+    # re-plot the data with updated colours
+    plt.cla()
+    plt.bar(df.index, df['mean'], yerr = df['error'], color = df['colour'])
+    plt.gca().xaxis.set_major_formatter(FormatStrFormatter('%.0f'))
+    plt.axhline(y=y_value)
+    plt.gca().set_xlabel('Year')
+    plt.annotate('y = ' + str(int(y_value)), [df.index[0], 50000])
+    plt.show()
+
+    return
+
+# preprocess the data, store stats for plotting in df
 df = get_stats(get_data(12345), 1.96)
 
-# creat figure and plot the data
-fig, ax = plt.subplots()
-ax.bar(df.index, df['mean'], yerr = df['error'])
+# set the default bar colours 
+df['colour'] = ''
+for index, row in df.iterrows():
+    df.at[index, 'colour'] = colour(y_value = y_value, mean = row['mean'], error = row['error'])
 
+# creat figure and plot the data
+plt.figure()
+plt.bar(df.index, df['mean'], yerr = df['error'], color = df['colour'])
+plt.gca().xaxis.set_major_formatter(FormatStrFormatter('%.0f'))
+plt.gca().set_xlabel('Year')
+plt.gcf().canvas.mpl_connect('button_press_event', onclick)
 plt.show()
