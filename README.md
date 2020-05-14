@@ -11,3 +11,12 @@ The [code](weather_patterns/code.py) generates a line graph of the record high a
 ## [Understanding Distributions Through Sampling](distributions)
 
 The [code](distributions/code.py) creates an animation, pulling between 100 and 2000 samples from each of the random variables (x1, x2, x3, x4) for each plot using matplotlib subplots.
+
+## [Building a Custom Visualization](interactive_vizualization)
+
+The [code](interactive_vizualization/code.py) creates a bar chart with user input: the user can click the plot in order to set a custom y-axis. Each bar represents data from a larger distribution by year, plotted using the mean for each year and error bars representing a 95% confidence interval. The colours of each bar represent how likely the selected y value will fall within a bar's respective distribution (i.e., a color scale from red to blue with white representing a y value equal to the year's mean).
+
+The assignment uses the approach outlined in Ferreira et al.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ferreira, N., Fisher, D., & Konig, A. C. (2014, April). [Sample-oriented task-driven visualizations: allowing users to make better, more confident decisions.](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/Ferreira_Fisher_Sample_Oriented_Tasks.pdf) 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (pp. 571-580). ACM. ([video](https://www.youtube.com/watch?v=BI7GAs-va-Q))
