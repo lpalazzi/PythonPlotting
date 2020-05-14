@@ -4,7 +4,9 @@ Assignments for course 'Applied Plotting, Charting &amp; Data Representation in 
 
 ## [Plotting Weather Patterns](weather_patterns)
 
-![fig](weather_patterns/img.png)
+<p align="center">
+  <img width="460" height="300" src="weather_patterns/img.png">
+</p>
 
 The [data](weather_patterns/C2A2_data.csv) for this assignment comes from a subset of The National Centers for Environmental Information (NCEI) [Daily Global Historical Climatology Network](https://www1.ncdc.noaa.gov/pub/data/ghcn/daily/readme.txt) (GHCN-Daily). The GHCN-Daily is comprised of daily climate records from thousands of land surface stations across the globe. The data subset used is near **Ann Arbor, Michigan, United States**.
 
