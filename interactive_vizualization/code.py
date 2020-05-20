@@ -10,7 +10,8 @@ z = 1.96 # define the z-value, 1.96 for 95% confidence interval
 y_value = 0.0 # default y-value to set the colours before the first user-click
 
 # set cmap
-cmap = cm.coolwarm
+#cmap = cm.coolwarm
+cmap = cm.get_cmap("coolwarm")
 
 def get_data(rand_seed):
     # generate bar chart data for the plot
