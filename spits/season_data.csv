@@ -1,32 +1,29 @@
-﻿Season,Team,League,Division,GP,W,L,T,OTL,SOL,Pts,Pct,GF,GA,PIM,Atten.,Result,,,,
-1990,Windsor Spitfires,OHL,Emms,66,17,41,8,0,0,42,0.318,233,341,1747,,Out of Playoffs,,,,
-1991,Windsor Spitfires,OHL,Emms,66,33,29,4,0,0,70,0.53,307,279,1434,,Lost in round 2,,,,
-1992,Windsor Spitfires,OHL,Emms,66,25,33,8,0,0,58,0.439,272,316,1647,,Lost in round 1,,,,
-1993,Windsor Spitfires,OHL,Emms,66,19,42,5,0,0,43,0.326,240,343,0,,Out of Playoffs,,,,
-1994,Windsor Spitfires,OHL,Emms,66,25,36,5,0,0,55,0.417,253,298,1661,,Lost in round 1,,,,
-1995,Windsor Spitfires,OHL,West,66,41,22,3,0,0,85,0.644,303,232,1786,,Lost in round 2,,,,
-1996,Windsor Spitfires,OHL,West,66,21,41,4,0,0,46,0.348,256,312,1855,,Lost in round 1,,,,
-1997,Windsor Spitfires,OHL,West,66,29,29,8,0,0,66,0.5,303,285,1893,,Lost in round 1,,,,
-1998,Windsor Spitfires,OHL,West,66,19,39,5,3,0,46,0.348,261,340,1731,2355,,,,,
-1999,Windsor Spitfires,OHL,West,68,23,33,6,6,0,58,0.426,203,294,1645,2079,,,,,
-2000,Windsor Spitfires,OHL,West,68,35,30,2,1,0,73,0.537,213,231,1480,2510,,,,,
-2001,Windsor Spitfires,OHL,West,68,34,22,8,4,0,80,0.588,257,221,1590,3081,,,,,
-2002,Windsor Spitfires,OHL,West,68,33,24,6,5,0,77,0.566,253,229,1677,3092,,,,,
-2003,Windsor Spitfires,OHL,West,68,37,25,5,1,0,80,0.588,259,221,1434,3196,,,,,
-2004,Windsor Spitfires,OHL,West,68,27,30,3,8,0,65,0.478,201,219,1254,3188,Lost in round 1,,,,
-2005,Windsor Spitfires,OHL,West,68,26,29,6,7,0,65,0.478,223,253,1471,2718,Lost in round 2,,,,
-2006,Windsor Spitfires,OHL,West,68,32,29,0,3,4,71,0.522,247,253,1558,2681,Lost in round 1,,,,
-2007,Windsor Spitfires,OHL,West,68,18,43,0,2,5,43,0.316,209,311,1629,3066,Out of Playoffs,,,,
-2008,Windsor Spitfires,OHL,West,68,41,15,0,7,5,94,0.691,279,205,1417,3344,Lost in round 1,,,,
-2009,Windsor Spitfires,OHL,West,68,57,10,0,0,1,115,0.846,311,171,1559,5063,Won Championship,,,,
-2010,Windsor Spitfires,OHL,West,68,50,12,0,1,5,106,0.779,331,203,1333,6278,Won Championship,,,,
-2011,Windsor Spitfires,OHL,West,68,39,23,0,3,3,84,0.618,280,247,1079,6250,Lost in round 3,,,,
-2012,Windsor Spitfires,OHL,West,68,29,32,0,5,2,65,0.478,213,258,1301,5859,Lost in round 1,,,,
-2013,Windsor Spitfires,OHL,West,68,26,33,0,3,6,61,0.449,212,278,1140,5691,Out of Playoffs,,,,
-2014,Windsor Spitfires,OHL,West,68,37,28,0,3,0,77,0.566,249,235,1040,5306,Lost in round 1,,,,
-2015,Windsor Spitfires,OHL,West,68,24,40,0,2,2,52,0.382,223,305,952,5067,Out of Playoffs,,,,
-2016,Windsor Spitfires,OHL,West,68,40,21,0,6,1,87,0.64,253,200,880,4775,Lost in round 1,,,,
-2017,Windsor Spitfires,OHL,West,68,41,19,0,5,3,90,0.662,232,185,0,4992,Won Championship,,,,
-2018,Windsor Spitfires,OHL,West,68,32,30,0,4,2,70,0.515,214,224,0,4730,Lost in round 1,,,,
-2019,Windsor Spitfires,OHL,West,68,25,33,0,5,5,60,0.441,216,257,609,4146,Lost in round 1,,,,
-2020,Windsor Spitfires,OHL,West,62,34,20,0,8,0,76,0.613,256,233,637,3919,,,,,
+﻿Season,Team,League,Division,GP,W,L,T,OTL,SOL,Pts,Pct,GF,GA,PIM,Atten.,Result
+1992,Windsor Spitfires,OHL,Emms,66,25,33,8,0,0,58,0.439,272,316,1647,,Lost in round 1
+1993,Windsor Spitfires,OHL,Emms,66,19,42,5,0,0,43,0.326,240,343,0,,Out of Playoffs
+1994,Windsor Spitfires,OHL,Emms,66,25,36,5,0,0,55,0.417,253,298,1661,,Lost in round 1
+1995,Windsor Spitfires,OHL,West,66,41,22,3,0,0,85,0.644,303,232,1786,,Lost in round 2
+1996,Windsor Spitfires,OHL,West,66,21,41,4,0,0,46,0.348,256,312,1855,,Lost in round 1
+1997,Windsor Spitfires,OHL,West,66,29,29,8,0,0,66,0.5,303,285,1893,,Lost in round 1
+1998,Windsor Spitfires,OHL,West,66,19,39,5,3,0,46,0.348,261,340,1731,2355,
+1999,Windsor Spitfires,OHL,West,68,23,33,6,6,0,58,0.426,203,294,1645,2079,
+2000,Windsor Spitfires,OHL,West,68,35,30,2,1,0,73,0.537,213,231,1480,2510,
+2001,Windsor Spitfires,OHL,West,68,34,22,8,4,0,80,0.588,257,221,1590,3081,
+2002,Windsor Spitfires,OHL,West,68,33,24,6,5,0,77,0.566,253,229,1677,3092,
+2003,Windsor Spitfires,OHL,West,68,37,25,5,1,0,80,0.588,259,221,1434,3196,
+2004,Windsor Spitfires,OHL,West,68,27,30,3,8,0,65,0.478,201,219,1254,3188,Lost in round 1
+2005,Windsor Spitfires,OHL,West,68,26,29,6,7,0,65,0.478,223,253,1471,2718,Lost in round 2
+2006,Windsor Spitfires,OHL,West,68,32,29,0,3,4,71,0.522,247,253,1558,2681,Lost in round 1
+2007,Windsor Spitfires,OHL,West,68,18,43,0,2,5,43,0.316,209,311,1629,3066,Out of Playoffs
+2008,Windsor Spitfires,OHL,West,68,41,15,0,7,5,94,0.691,279,205,1417,3344,Lost in round 1
+2009,Windsor Spitfires,OHL,West,68,57,10,0,0,1,115,0.846,311,171,1559,5063,Won Championship
+2010,Windsor Spitfires,OHL,West,68,50,12,0,1,5,106,0.779,331,203,1333,6278,Won Championship
+2011,Windsor Spitfires,OHL,West,68,39,23,0,3,3,84,0.618,280,247,1079,6250,Lost in round 3
+2012,Windsor Spitfires,OHL,West,68,29,32,0,5,2,65,0.478,213,258,1301,5859,Lost in round 1
+2013,Windsor Spitfires,OHL,West,68,26,33,0,3,6,61,0.449,212,278,1140,5691,Out of Playoffs
+2014,Windsor Spitfires,OHL,West,68,37,28,0,3,0,77,0.566,249,235,1040,5306,Lost in round 1
+2015,Windsor Spitfires,OHL,West,68,24,40,0,2,2,52,0.382,223,305,952,5067,Out of Playoffs
+2016,Windsor Spitfires,OHL,West,68,40,21,0,6,1,87,0.64,253,200,880,4775,Lost in round 1
+2017,Windsor Spitfires,OHL,West,68,41,19,0,5,3,90,0.662,232,185,0,4992,Won Championship
+2018,Windsor Spitfires,OHL,West,68,32,30,0,4,2,70,0.515,214,224,0,4730,Lost in round 1
+2019,Windsor Spitfires,OHL,West,68,25,33,0,5,5,60,0.441,216,257,609,4146,Lost in round 1
