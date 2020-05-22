@@ -25,7 +25,7 @@ df['Drafted'] = df['Drafted'].astype('int64')
 inkColour = "#5c5c5c"
 
 # create the figure object
-fig, ax1 = plt.subplots(sharex=True, figsize=(14.0,3.0), facecolor='white')
+fig, ax1 = plt.subplots(sharex=True, figsize=(14.0,3.5), facecolor='white')
 
 # plot the win percentages
 colour = 'darkblue'
@@ -74,6 +74,10 @@ for spine in ax1.spines.values():
 for spine in ax2.spines.values():
     spine.set_visible(False)
 
-#fig.tight_layout()
+# print the correlation coefficient for the data
+corr = df[['Win Percentage', 'Drafted']].corr().loc['Win Percentage', 'Drafted']
+corr_str = "Correlation coefficient = {:.4f}".format(corr)
+print (corr_str)
+ax2.text(1998.5, 4.0, corr_str, color=inkColour)
 
 plt.show()
