@@ -28,3 +28,21 @@ The assignment uses the approach outlined in Ferreira et al.
 </p>
 
 The [code](interactive_vizualization/code.py) creates a bar chart with user input: the user can click the plot in order to set a custom y-axis. Each bar represents data from a larger distribution by year, plotted using the mean for each year and error bars representing a 95% confidence interval. The colours of each bar represent how likely the selected y value will fall within a bar's respective distribution (i.e., a color scale from red to blue with white representing a y value equal to the year's mean).
+
+## [Correlations in Sports Data](spits)
+
+Research Question: Is the season-by-season win percentage of the Windsor Spitfires junior ice hockey team correlated with the number of players selected from the team in the top 300 picks of each season's NHL draft?
+
+<p align="center">
+  <img width="460" height="300" src="spits/figure.png">
+</p>
+
+The visual addresses the research question by displaying the relevant trends (win percentage and number of players drafted) on the same plot, which highlights the overlap in the patters of both sets of data across the same range of seasons (1992-2019). 
+
+It is clear from the graph that when the team has a low win percentage (i.e., the team did not do well that season) the team does not have many players drafted to the NHL. However, when a team has a higher win percentage (and perhaps sometimes wins the championship) the team sees more of their players drafted in the top 300 picks. In general, the two data sets follow a similar trend.
+
+The correlation coefficient between the two data sets is 0.6342, indicating a moderate-to-strong positive correlation. 
+
+draft data from https://www.hockey-reference.com/play-index/draft_finder.cgi
+
+season by season data from https://www.hockeydb.com/stte/windsor-spitfires-10926.html
