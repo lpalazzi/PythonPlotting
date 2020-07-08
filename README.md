@@ -34,7 +34,7 @@ The [code](interactive_vizualization/code.py) creates a bar chart with user inpu
 Research Question: Is the season-by-season win percentage of the Windsor Spitfires junior ice hockey team correlated with the number of players selected from the team in the top 300 picks of each season's NHL draft?
 
 <p align="center">
-  <img width="1400" height="360" src="spits/figure.png">
+  <img width="1400" height="320" src="spits/figure.png">
 </p>
 
 The visual addresses the research question by displaying the relevant trends (win percentage and number of players drafted) on the same plot, which highlights the overlap in the patters of both sets of data across the same range of seasons (1992-2019). 
